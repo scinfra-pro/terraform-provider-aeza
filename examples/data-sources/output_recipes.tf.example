@@ -1,0 +1,9 @@
+output "recipes_count" {
+  description = "Count of available Aeza recipes"
+  value       = length(data.aeza_recipes.all.recipes)
+}
+
+output "recipes_list" {
+  description = "List of available recipes"
+  value       = [for r in data.aeza_recipes.all.recipes : r.name]
+}

@@ -1,0 +1,36 @@
+# Binaries
+terraform-provider-aeza
+*.exe
+*.dll
+*.so
+*.dylib
+bin/
+
+# Test files
+*.test
+*.out
+
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfvars
+!terraform.tfvars.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Go
+go.work
+go.work.sum
+
+
