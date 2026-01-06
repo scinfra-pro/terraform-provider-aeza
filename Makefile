@@ -18,13 +18,13 @@ print-vars:
 
 build:
 	@echo "Building $(BINARY_NAME)..."
-	@go build -o $(BINARY_NAME) ./cmd/terraform-provider-aeza
+	@go build -o $(BINARY_NAME) .
 
 build-all-platforms:
 	@echo "Building for all platforms..."
-	@GOOS=linux GOARCH=amd64 go build -o bin/linux/amd64/$(BINARY_NAME) ./cmd/terraform-provider-aeza
-	@GOOS=darwin GOARCH=amd64 go build -o bin/darwin/amd64/$(BINARY_NAME) ./cmd/terraform-provider-aeza
-	@GOOS=windows GOARCH=amd64 go build -o bin/windows/amd64/$(BINARY_NAME).exe ./cmd/terraform-provider-aeza
+	@GOOS=linux GOARCH=amd64 go build -o bin/linux/amd64/$(BINARY_NAME) .
+	@GOOS=darwin GOARCH=amd64 go build -o bin/darwin/amd64/$(BINARY_NAME) .
+	@GOOS=windows GOARCH=amd64 go build -o bin/windows/amd64/$(BINARY_NAME).exe .
 
 clean:
 	@echo "Cleaning..."
