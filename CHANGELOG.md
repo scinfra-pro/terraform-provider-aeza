@@ -7,7 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.1] - 2025-01-06
+## [0.1.2] - 2025-01-06
+
+### Changed
+- Temporarily disabled GPG signing until secrets are configured in GitHub
+- Commented out GPG import step in release workflow
+
+### Fixed
+- Fixed GoReleaser release workflow to work without GPG signing
+
+## [0.1.1] - 2025-01-06 [FAILED]
 
 ### Added
 - GoReleaser configuration for multi-platform builds
@@ -36,7 +45,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MPL-2.0 license
 - Comprehensive README with usage examples
 
-[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.0...v0.1.1
 [0.1.0]: https://github.com/scinfra-pro/terraform-provider-aeza/releases/tag/v0.1.0
 
