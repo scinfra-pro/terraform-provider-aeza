@@ -33,4 +33,7 @@ Thumbs.db
 go.work
 go.work.sum
 
+# GoReleaser
+dist/
+
 
