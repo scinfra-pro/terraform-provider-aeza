@@ -22,7 +22,8 @@ builds:
       - amd64
       - arm64
     binary: '{{ .ProjectName }}_v{{ .Version }}'
-    dir: cmd/terraform-provider-aeza
+    dir: .
+    main: ./cmd/terraform-provider-aeza
 
 archives:
   - format: zip

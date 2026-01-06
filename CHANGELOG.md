@@ -7,7 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [0.1.5] - 2025-01-06
+## [0.1.6] - 2025-01-06
+
+### Fixed
+- Use both `dir: .` and `main: ./cmd/terraform-provider-aeza` in GoReleaser config
+
+## [0.1.5] - 2025-01-06 [FAILED]
 
 ### Fixed
 - Changed `main:` to `dir:` in .goreleaser.yml (GoReleaser v2 syntax)
@@ -62,7 +67,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MPL-2.0 license
 - Comprehensive README with usage examples
 
-[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.5...HEAD
+[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.6...HEAD
+[0.1.6]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.4...v0.1.5
 [0.1.4]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.3...v0.1.4
 [0.1.3]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.2...v0.1.3
