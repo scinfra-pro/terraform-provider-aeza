@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-01-06
+
+### Added
+- GPG signing for all releases
+- Signed SHA256SUMS checksums for security verification
+
+### Changed
+- Enabled GPG signing in release workflow
+- All future releases will be cryptographically signed
+
 ## [0.1.7] - 2025-01-06
 
 ### Changed
@@ -74,7 +84,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MPL-2.0 license
 - Comprehensive README with usage examples
 
-[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.7...HEAD
+[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.2.0...HEAD
+[0.2.0]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.7...v0.2.0
 [0.1.7]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.6...v0.1.7
 [0.1.6]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.5...v0.1.6
 [0.1.5]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.4...v0.1.5
