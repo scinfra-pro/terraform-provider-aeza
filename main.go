@@ -23,4 +23,3 @@ func main() {
 		ProviderFunc: provider.New,
 	})
 }
-

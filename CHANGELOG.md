@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.3.1] - 2025-01-06
+
+### Fixed
+- Fixed documentation naming: renamed `os.md` to `os_list.md` to match data source name `aeza_os_list`
+- Updated provider documentation links
+
 ## [0.3.0] - 2025-01-06
 
 ### Added
@@ -94,7 +100,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - MPL-2.0 license
 - Comprehensive README with usage examples
 
-[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.3.1...HEAD
+[0.3.1]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.7...v0.2.0
 [0.1.7]: https://github.com/scinfra-pro/terraform-provider-aeza/compare/v0.1.6...v0.1.7

@@ -45,7 +45,7 @@ func New() *schema.Provider {
 			"aeza_products":       data_sources.ProductsDataSource(),
 			"aeza_service_types":  data_sources.ServiceTypesDataSource(),
 			"aeza_service_groups": data_sources.ServiceGroupsData(),
-			"aeza_os_list":        data_sources.OSDataSource(),
+			"aeza_os":             data_sources.OSDataSource(),
 			"aeza_recipes":        data_sources.RecipesDataSource(),
 		},
 

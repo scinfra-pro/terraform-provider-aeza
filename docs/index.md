@@ -77,6 +77,6 @@ The API key can be provided in several ways:
 - [aeza_services](data-sources/services.md) - Get list of existing services
 - [aeza_service_types](data-sources/service_types.md) - Get available service types
 - [aeza_service_groups](data-sources/service_groups.md) - Get service groups
-- [aeza_os](data-sources/os.md) - Get available operating systems
+- [aeza_os_list](data-sources/os_list.md) - Get available operating systems
 - [aeza_recipes](data-sources/recipes.md) - Get installation recipes
 
